@@ -17,5 +17,4 @@ function MainContent() {
   );
 }
 
-// skip ci
 export default MainContent;
