@@ -39,6 +39,13 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm ci
+      - name: Test code
+        run: npm run test 
+      - name: Upload test report
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report
+          path: test.json
       - name: Run tests
         run: npm test
   build:
