@@ -7,10 +7,10 @@ on:
   #     - main # main
   #     - 'dev-*' # dev-new dev-this-is-new
   #     - 'feat/**' # feat/new feat/new/button
-  # workflow_dispatch:
-  push:
-    branches:
-      - main # main
+ workflow_dispatch
+  #push:
+  #  branches:
+  #    - main # main
       # - 'dev-*' # dev-new dev-this-is-new
       # - 'feat/**' # feat/new feat/new/button
       # # developer-1
