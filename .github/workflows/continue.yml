@@ -43,8 +43,6 @@ jobs:
         with:
           name: test-report
           path: test.json
-      - name: Run tests
-        run: npm test
   build:
     needs: test
     runs-on: ubuntu-latest
